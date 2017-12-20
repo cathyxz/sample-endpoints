@@ -28,7 +28,11 @@ app.get('/search/countries', function(req, res, next) {
   }
 
   var results = {
-    'items': filtered
+    'items': [
+      {
+        'results': filtered
+      }
+    ]
   };
   res.send(results);
 });
