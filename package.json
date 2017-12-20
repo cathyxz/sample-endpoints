@@ -1,0 +1,15 @@
+{
+  "name": "sample-endpoints",
+  "version": "1.0.0",
+  "description": "sample endpoints for codepen testing",
+  "main": "index.js",
+  "author": "cathyxz",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
