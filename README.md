@@ -1,5 +1,10 @@
 ## Sample Endpoints
 
+### Usage
+```
+npm start
+```
+
 A bare bones country filter search endpoint for testing typeaheads / autosuggest. 
 Currently hosted at:
 ```
